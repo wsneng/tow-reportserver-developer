@@ -1,0 +1,10 @@
+server:
+  #war包该配置项无效
+  port: 8013
+
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB # 50M，单个文件大小
+      max-request-size: 100MB # 100M 总上传的数据大小, 默认10M
